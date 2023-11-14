@@ -166,7 +166,7 @@ const RowTwo = () => {
               left: -10,
             }}
           >
-            <CartesianGrid stroke={palette.grey[700]} />
+            <CartesianGrid stroke={palette.grey[500]} />
             <XAxis
               type="number"
               dataKey="price"
