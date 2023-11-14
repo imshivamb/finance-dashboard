@@ -45,7 +45,11 @@ mongoose
     .then(async () => {
         app.listen(PORT, () => console.log(`Server Port: ${PORT}`))
 
-        // // await mongoose.connection.db.dropDatabase();
-    //    Transaction.insertMany(transactions);
+        // await mongoose.connection.db.dropDatabase();
+        // KPI.insertMany(kpis);
+        // Product.insertMany(products);
+        // Transaction.insertMany(transactions);
+       
+      
     })
     .catch((error) => console.log(`${error} did not connect`))
